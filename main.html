@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Gallery</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div class="container-fluid text-center mt-4">
+
+  <!-- First Row (12 images, col-sm-1) -->
+  <div class="row">
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/3bhkrj58Vtu7enYsRolD1fZdja1.jpg" class="img-fluid" width="100" height="100" alt="The Godfather"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg" class="img-fluid" width="100" height="100" alt="Shawshank"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/rSPw7tgCH9c6NqICZef4kZjFOQ5.jpg" class="img-fluid" width="100" height="100" alt="The Godfather II"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/q719jXXEzOoYaps6babgKnONONX.jpg" class="img-fluid" width="100" height="100" alt="Spirited Away"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/velWPhVMQeQKcxggNEU8YmIo52R.jpg" class="img-fluid" width="100" height="100" alt="Inception"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg" class="img-fluid" width="100" height="100" alt="The Dark Knight"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg" class="img-fluid" width="100" height="100" alt="Interstellar"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/2CAL2433ZeIihfX1Hb2139CX0pW.jpg" class="img-fluid" width="100" height="100" alt="Coco"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/plnlrtBUULT0rh3Xsjmpubiso3L.jpg" class="img-fluid" width="100" height="100" alt="Parasite"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/kqjL17yufvn9OVLyXYpvtyrFfak.jpg" class="img-fluid" width="100" height="100" alt="Avengers"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/yPisjyLweCl1tbgwgtzBCNCBle.jpg" class="img-fluid" width="100" height="100" alt="Titanic"></div>
+    <div class="col-sm-1"><img src="https://image.tmdb.org/t/p/w200/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg" class="img-fluid" width="100" height="100" alt="Forrest Gump"></div>
+  </div>
+
+  <!-- Second Row (6 images, col-sm-2) -->
+  <div class="row mt-3">
+    <div class="col-sm-2"><img src="https://image.tmdb.org/t/p/w200/2CAL2433ZeIihfX1Hb2139CX0pW.jpg" class="img-fluid" alt="Coco"></div>
+    <div class="col-sm-2"><img src="https://image.tmdb.org/t/p/w200/kqjL17yufvn9OVLyXYpvtyrFfak.jpg" class="img-fluid" alt="Avengers"></div>
+    <div class="col-sm-2"><img src="https://image.tmdb.org/t/p/w200/yPisjyLweCl1tbgwgtzBCNCBle.jpg" class="img-fluid" alt="Titanic"></div>
+    <div class="col-sm-2"><img src="https://image.tmdb.org/t/p/w200/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg" class="img-fluid" alt="Forrest Gump"></div>
+    <div class="col-sm-2"><img src="https://image.tmdb.org/t/p/w200/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg" class="img-fluid" alt="The Dark Knight"></div>
+    <div class="col-sm-2"><img src="https://image.tmdb.org/t/p/w200/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg" class="img-fluid" alt="Interstellar"></div>
+  </div>
+
+  <!-- Third Row (3 images, col-sm-4) -->
+  <div class="row mt-3">
+    <div class="col-sm-4"><img src="https://image.tmdb.org/t/p/w200/plnlrtBUULT0rh3Xsjmpubiso3L.jpg" class="img-fluid" alt="Parasite"></div>
+    <div class="col-sm-4"><img src="https://image.tmdb.org/t/p/w200/velWPhVMQeQKcxggNEU8YmIo52R.jpg" class="img-fluid" alt="Inception"></div>
+    <div class="col-sm-4"><img src="https://image.tmdb.org/t/p/w200/3bhkrj58Vtu7enYsRolD1fZdja1.jpg" class="img-fluid" alt="Godfather"></div>
+  </div>
+
+  <!-- Fourth Row (1 image, col-sm-12) -->
+  <div class="row mt-3">
+    <div class="col-sm-12"><img src="https://image.tmdb.org/t/p/w200/9O7gLzmreU0nGkIB6K3BsJbzvNv.jpg" class="img-fluid" alt="Shawshank"></div>
+  </div>
+
+</div>
 
 </body>
-
 </html>
